@@ -1,5 +1,11 @@
 # Guia de Instalação do ambiente de prova
 
+- Instalar biblioteca requerida
+
+```bash
+sudo apt-get install libfuse2
+```
+
 - Acesse a pasta onde o download foi feito (ajuste se não for a Área de Trabalho)
 ```bash
 cd /home/suporte/Downloads
