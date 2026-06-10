@@ -15,17 +15,17 @@ cd /home/suporte/Downloads
 ```bash
 sudo mv ExamLock-1.0.7.AppImage /usr/local/bin/examlock
 ```
-# Mude o proprietário para o usuário root
+- Mude o proprietário para o usuário root
 ```bash
 sudo chown root:root /usr/local/bin/examlock
 ```
 
-# Dê permissão de leitura e execução para todos, mas escrita apenas para o root (755)
+- Dê permissão de leitura e execução para todos, mas escrita apenas para o root (755)
 ```bash
 sudo chmod 755 /usr/local/bin/examlock
 ```
 
-# Crie o arquivo de atalho diretamente na Área de Trabalho do aluno
+- Crie o arquivo de atalho diretamente na Área de Trabalho do aluno
 ```bash
 sudo nano /home/aluno/"Área de Trabalho"/examlock.desktop
 ```
